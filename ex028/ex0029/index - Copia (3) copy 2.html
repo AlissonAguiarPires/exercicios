@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxt</title>
+    <style>
+        div.content{
+            background-color:blanchedalmond;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.A{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+        div#ca{
+            flex: 1 0 200px;
+            
+            
+        }
+        div#cb{
+            flex: 1 1 150px;
+        }
+        div#cc{
+            flex:  1 8 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="A" id="ca">A</div>
+        <div class="A" id="cb">B</div>
+        <div class="A" id="cc">C</div>
+    </div>
+</body>
+</html>
