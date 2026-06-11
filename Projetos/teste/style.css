@@ -62,6 +62,14 @@ width: 30%;
 border-radius: 50%;
 
 }
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.a{
+    
+}
 footer{
     padding: 10px;
     background-color: var(--cor1);
